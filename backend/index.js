@@ -17,9 +17,6 @@ app.use(json());
 app.use('/authors', authorsRoutes);
 app.use('/withdrawals', withdrawalRoutes);
 
-
-app.use('/authors/:id/withdrawals',);
-
 // Root endpoint
 app.get('/', (req, res) => {
     res.json({
