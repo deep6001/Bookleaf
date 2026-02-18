@@ -1,4 +1,4 @@
-import {books,sales,authors} from '../data/seed.js'
+import {books,sales,authors, withdrawals} from '../data/seed.js'
 import { calculateCurrentBalance, calculateTotalEarnings, getBookStats } from '../utils/earnings.js';
 
 
