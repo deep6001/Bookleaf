@@ -3,7 +3,6 @@ import cors from 'cors';
 import authorsRoutes from './routes/authors.js';
 import withdrawalRoutes from './routes/withdrawals.js';
 import dotenv from 'dotenv';
-import { authors, withdrawals } from './data/seed.js';
 
 dotenv.config();
 
